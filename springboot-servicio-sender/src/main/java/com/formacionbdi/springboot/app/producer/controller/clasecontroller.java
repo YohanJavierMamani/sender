@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.formacionbdi.springboot.app.producer.service.RabbitMQSender;
 
+
 @RestController
 @RequestMapping(value = "/rabbitmq/")
 public class clasecontroller {
